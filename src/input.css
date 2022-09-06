@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply text-gray-400 transition-all ease-in duration-300 underline decoration-transparent decoration-solid lg:hover:text-white lg:hover:decoration-white  lg:hover:decoration-1 text-xs font-bold md:text-sm lg:text-base select-none;
+  }
+}
+
+@layer utilities{
+  .max-ch-56{
+    max-width: 56ch;
+  }
+
+  .max-ch-43{
+    max-width: 43ch !important;
+    margin: auto;
+  }
+
+  .max-ch-78{
+    max-width: 78ch;
+  }
+
+}
